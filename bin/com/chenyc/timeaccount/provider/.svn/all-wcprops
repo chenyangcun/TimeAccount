@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/bin/com/chenyc/timeaccount/provider
+END
+TimeAccount.class
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/bin/com/chenyc/timeaccount/provider/TimeAccount.class
+END
+TimeItemAdapter.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/bin/com/chenyc/timeaccount/provider/TimeItemAdapter.class
+END
+SyncLogAdapter.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/bin/com/chenyc/timeaccount/provider/SyncLogAdapter.class
+END
+Introspection.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/bin/com/chenyc/timeaccount/provider/Introspection.class
+END
+EventTypeAdapter.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/bin/com/chenyc/timeaccount/provider/EventTypeAdapter.class
+END
+DatabaseHelper.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/bin/com/chenyc/timeaccount/provider/DatabaseHelper.class
+END
+TimeAccountProvider.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/bin/com/chenyc/timeaccount/provider/TimeAccountProvider.class
+END

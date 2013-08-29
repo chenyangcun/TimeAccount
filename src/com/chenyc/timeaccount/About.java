@@ -1,0 +1,15 @@
+package com.chenyc.timeaccount;
+
+import com.chenyc.timeaccount.activity.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class About extends Activity {
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.about);
+		setTitle(getString(R.string.app_name)+"-"+getString(R.string.about));
+	}
+}

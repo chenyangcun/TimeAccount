@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/background" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="30dip"
+	android:orientation="horizontal">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_gravity="center">
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:gravity="center"
+			android:text="@string/main_title" android:textSize="35dp"
+			android:layout_marginBottom="25dip" />
+
+		<Button android:text="@string/today_account" android:id="@+id/today_account"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/view_account" android:id="@+id/view_account"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+		<Button android:text="@string/type_manage" android:id="@+id/type_manage"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+		<Button android:text="@string/about" android:id="@+id/about"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+	</LinearLayout>
+
+</LinearLayout>

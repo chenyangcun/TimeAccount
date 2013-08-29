@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">时间账本</string>
+	<string name="today_account">今日记账</string>
+	<string name="view_account">账本浏览</string>
+	<string name="type_manage">事件类型</string>
+	<string name="about">关 于</string>
+	<string name="main_title">时间账本</string>
+	<string name="about_text">\
+		时间账本的想法是来源于《奇特的一生》这本书，通过对自己每天的时间使用情况登记入账，来更好的规划自己的人生。\n
+		(阳春面,2010-03-06)
+	</string>
+	<string name="about_title">关于时间账本</string>
+	<string name="menu_insert">新  增</string>
+	<string name="menu_book">记  账</string>
+	<string name="menu_delete">删  除</string>
+	<string name="menu_introspection">反  思</string>
+	<string name="confirm">确  定</string>
+	<string name="eventtype_title">类型：</string>
+	<string name="event_type_prompt">请选择事件类型</string>
+	<string name="timeitem_title">内容：</string>
+	<string name="timecount_title">耗时：</string>
+	<string name="date_title">日期：</string>
+	<string name="rating_title">评分：</string>
+	<string name="switch_button">选择日期</string>
+	<string name="no_account">该日没有记账记录！</string>
+	<string name="no_event_type">没有事件类型！</string>
+	<string name="hour">小时</string>
+	<string name="minute">分</string>
+	<string name="menu_config">设  置</string>
+	
+	<string name="notice_title">同步地址错误</string>
+	<string name="notice_message">同步地址设置错误，请重新设置！</string>
+	
+	
+
+</resources>

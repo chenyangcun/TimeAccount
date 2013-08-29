@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.chenyc.timeaccount.activity" android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+
+		<provider android:name="com.chenyc.timeaccount.provider.TimeAccountProvider"
+			android:authorities="com.chenyc.timeaccount.provider" />
+
+		<activity android:name="com.chenyc.timeaccount.Main" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.chenyc.timeaccount.About"></activity>
+		<activity android:name="com.chenyc.timeaccount.EventTypeEdit"></activity>
+		<activity android:name="com.chenyc.timeaccount.EventTypeList"></activity>
+		<activity android:name="com.chenyc.timeaccount.TimeItemEdit"></activity>
+		<activity android:name="com.chenyc.timeaccount.TimeItemList"></activity>
+		<activity android:name="com.chenyc.timeaccount.CalendarBrowse"></activity>
+		<activity android:name="com.chenyc.timeaccount.IntrospectionEdit"></activity>
+		<activity android:name="com.chenyc.timeaccount.Settings"></activity>
+
+		<service android:name="com.chenyc.timeaccount.sync.SyncService">
+			<intent-filter>
+				<action android:name="com.chenyc.timeaccount.sync.SYNC_SERVICE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</service>
+
+		<receiver android:name="com.chenyc.timeaccount.sync.IntentReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<category android:name="android.intent.category.HOME" />
+			</intent-filter>
+		</receiver>
+	</application>
+
+
+</manifest> 

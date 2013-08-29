@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4/trunk/src/com/chenyc/timeaccount/sync
+END
+IntentReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/src/com/chenyc/timeaccount/sync/IntentReceiver.java
+END
+SyncService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/com/chenyc/timeaccount/sync/SyncService.java
+END
